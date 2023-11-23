@@ -1,0 +1,7 @@
+uint32 host_error
+uint32 central_error
+uint32 front_left_motor_error
+uint32 front_right_motor_error
+uint32 rear_left_motor_error
+uint32 rear_right_motor_error
+uint32 bms_error

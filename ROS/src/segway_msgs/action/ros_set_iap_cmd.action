@@ -1,0 +1,6 @@
+uint16 board_index_for_iap  #1 for central, 2 for motor_front, 3 for motor_rear
+---
+int16  iap_result  #3: iap_state_complete; 4: iap_state_fail; 5: iap_state_abort
+int16  error_code  #When iap_result value is 4, this value represents the error code
+---
+int16  iap_percent
